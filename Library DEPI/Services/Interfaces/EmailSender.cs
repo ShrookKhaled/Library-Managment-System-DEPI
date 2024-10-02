@@ -7,8 +7,8 @@ namespace Library_DEPI.Services.Interfaces
     {
         public async Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
-            var EmailFrom = "ProjectE-commerce2024@outlook.com";
-            var PasswordFrom = "Project2024";
+            var EmailFrom = " ";
+            var PasswordFrom = " ";
             var message = new MailMessage();
             message.From = new MailAddress(EmailFrom);
             message.Subject = subject;
