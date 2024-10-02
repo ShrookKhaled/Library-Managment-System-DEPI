@@ -284,3 +284,4 @@ D:\DEPI\.NET\Final Project\Library\Code\Library DEPI\Library DEPI\bin\Debug\net8
 D:\DEPI\.NET\Final Project\Library\Code\Library DEPI\Library DEPI\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\DEPI\.NET\Final Project\Library\Code\Library DEPI\Library DEPI\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 D:\DEPI\.NET\Final Project\Library\Code\Library DEPI\Library DEPI\obj\Debug\net8.0\Library DEPI.MvcApplicationPartsAssemblyInfo.cs
+D:\DEPI\.NET\Final Project\Library\Code\Library DEPI\Library DEPI\obj\Debug\net8.0\Library DEPI.sourcelink.json

@@ -1,7 +1,7 @@
 ﻿using System.Net.Mail;
 using System.Net;
 
-namespace Library_DEPI.Services.Interfaces
+namespace Library_DEPI.Services
 {
     public class EmailSender : IEmailSender
     {

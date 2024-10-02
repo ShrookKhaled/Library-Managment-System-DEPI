@@ -1,6 +1,9 @@
-﻿global using Library_DEPI.Data;
-global using Microsoft.EntityFrameworkCore;
+﻿global using Microsoft.EntityFrameworkCore;
 global using Microsoft.AspNetCore.Identity;
 global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 global using Microsoft.AspNetCore.Identity.UI.Services;
+global using Microsoft.AspNetCore.Mvc;
+global using Library_DEPI.Data;
 global using Library_DEPI.Models;
+global using Library_DEPI.Services.Interfaces;
+global using Microsoft.AspNetCore.Mvc.Rendering;

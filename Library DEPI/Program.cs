@@ -1,5 +1,8 @@
 
 
+using Library_DEPI.Services.Implementation;
+using Library_DEPI.Services.Interfaces;
+
 namespace Library_DEPI
 {
     public class Program
@@ -19,6 +22,8 @@ namespace Library_DEPI
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<AppDBContext>();
 
+            builder.Services.AddTransient<IAuthorServices, AuthorServices>();
+            builder.Services.AddTransient<IGenreServices, GenreServices>();
             
 
             var app = builder.Build();
