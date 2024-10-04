@@ -39,6 +39,73 @@ namespace Library_DEPI.Migrations
                     b.ToTable("Authors");
                 });
 
+            modelBuilder.Entity("Library_DEPI.Models.Book", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AuthorID")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("AvailabilityStatus")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("GenreID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("PublishedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AuthorID");
+
+                    b.HasIndex("GenreID");
+
+                    b.ToTable("Book");
+                });
+
+            modelBuilder.Entity("Library_DEPI.Models.Checkout", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BookID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CheckoutDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("MemberID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("MemberId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BookID");
+
+                    b.HasIndex("MemberId");
+
+                    b.ToTable("Checkout");
+                });
+
             modelBuilder.Entity("Library_DEPI.Models.Genre", b =>
                 {
                     b.Property<int>("Id")
@@ -54,6 +121,54 @@ namespace Library_DEPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Genres");
+                });
+
+            modelBuilder.Entity("Library_DEPI.Models.Penalty", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("OverdueDays")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ReturnID")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ReturnID");
+
+                    b.ToTable("Penalties");
+                });
+
+            modelBuilder.Entity("Library_DEPI.Models.Return", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CheckoutID")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("PenaltyAmount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("ReturnDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CheckoutID");
+
+                    b.ToTable("Return");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -120,6 +235,11 @@ namespace Library_DEPI.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(13)
+                        .HasColumnType("nvarchar(13)");
+
                     b.Property<string>("Email")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -171,6 +291,10 @@ namespace Library_DEPI.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasDiscriminator().HasValue("IdentityUser");
+
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -256,6 +380,76 @@ namespace Library_DEPI.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("Library_DEPI.Models.Member", b =>
+                {
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
+
+                    b.Property<DateTime>("RegistrationDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasDiscriminator().HasValue("Member");
+                });
+
+            modelBuilder.Entity("Library_DEPI.Models.Book", b =>
+                {
+                    b.HasOne("Library_DEPI.Models.Author", "Author")
+                        .WithMany()
+                        .HasForeignKey("AuthorID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Library_DEPI.Models.Genre", "Genre")
+                        .WithMany()
+                        .HasForeignKey("GenreID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Author");
+
+                    b.Navigation("Genre");
+                });
+
+            modelBuilder.Entity("Library_DEPI.Models.Checkout", b =>
+                {
+                    b.HasOne("Library_DEPI.Models.Book", "Book")
+                        .WithMany()
+                        .HasForeignKey("BookID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Library_DEPI.Models.Member", "Member")
+                        .WithMany()
+                        .HasForeignKey("MemberId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Book");
+
+                    b.Navigation("Member");
+                });
+
+            modelBuilder.Entity("Library_DEPI.Models.Penalty", b =>
+                {
+                    b.HasOne("Library_DEPI.Models.Return", "Return")
+                        .WithMany()
+                        .HasForeignKey("ReturnID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Return");
+                });
+
+            modelBuilder.Entity("Library_DEPI.Models.Return", b =>
+                {
+                    b.HasOne("Library_DEPI.Models.Checkout", "Checkout")
+                        .WithMany()
+                        .HasForeignKey("CheckoutID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Checkout");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

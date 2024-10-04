@@ -24,7 +24,7 @@ namespace Library_DEPI
 
             builder.Services.AddTransient<IAuthorServices, AuthorServices>();
             builder.Services.AddTransient<IGenreServices, GenreServices>();
-            
+            builder.Services.AddTransient<IPenaltyServices, PenaltyServices>();
 
             var app = builder.Build();
 

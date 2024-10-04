@@ -14,7 +14,7 @@ namespace Library_DEPI.Data
         //public DbSet<Book> Books { get; set; }
         //public DbSet<Checkout> Checkouts { get; set; }
         //public DbSet<Return> Returns { get; set; }
-        //public DbSet<Penalty> Penalties { get; set; }
-       
+        public DbSet<Penalty> Penalties { get; set; }
+
     }
 }
