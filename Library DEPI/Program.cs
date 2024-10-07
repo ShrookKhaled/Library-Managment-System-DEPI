@@ -20,11 +20,13 @@ namespace Library_DEPI
                 builder.Configuration.GetConnectionString("Con")
               ));
 
-            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<AppDBContext>();
+            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
+                .AddRoles<IdentityRole>()
+                .AddEntityFrameworkStores<AppDBContext>();
 
             builder.Services.AddTransient<IAuthorServices, AuthorServices>();
             builder.Services.AddTransient<IGenreServices, GenreServices>();
-            
+            builder.Services.AddTransient<IPenaltyServices, PenaltyServices>();
 
             var app = builder.Build();
 

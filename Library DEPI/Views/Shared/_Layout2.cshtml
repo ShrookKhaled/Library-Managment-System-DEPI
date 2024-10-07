@@ -25,7 +25,12 @@
                     <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Privacy">About</a></li>
                     <li class="nav-item"><a class="nav-link" asp-controller="Authors" asp-action="index">Author</a></li>
                     <li class="nav-item"><a class="nav-link" asp-controller="Genres" asp-action="index">Genre</a></li>
-                    
+                    <li class="nav-item"><a class="nav-link" asp-controller="Penalty" asp-action="index">Penalty</a></li>
+                    @if(User.IsInRole("Super Admin"))
+                    {
+                        <li class="nav-item"><a class="nav-link" asp-controller="Roles" asp-action="index">User Roles</a></li>
+
+                    }
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>

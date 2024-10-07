@@ -76,6 +76,33 @@ namespace Library_DEPI.Migrations
                     b.ToTable("Books");
                 });
 
+            modelBuilder.Entity("Library_DEPI.Models.Checkout", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BookID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CheckoutDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("MemberID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BookID");
+
+                    b.HasIndex("MemberID");
+
+                    b.ToTable("Checkouts");
+                });
+
             modelBuilder.Entity("Library_DEPI.Models.Genre", b =>
                 {
                     b.Property<int>("Id")
@@ -91,6 +118,54 @@ namespace Library_DEPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Genres");
+                });
+
+            modelBuilder.Entity("Library_DEPI.Models.Penalty", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("OverdueDays")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ReturnID")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ReturnID");
+
+                    b.ToTable("Penalties");
+                });
+
+            modelBuilder.Entity("Library_DEPI.Models.Return", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CheckoutID")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("PenaltyAmount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("ReturnDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CheckoutID");
+
+                    b.ToTable("Returns");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -118,6 +193,29 @@ namespace Library_DEPI.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "740ed103-0a17-4fa2-a2b7-fa341b66ee77",
+                            ConcurrencyStamp = "9dcc70ea-8c47-4051-a8db-4be3d6cf67cf",
+                            Name = "Super Admin",
+                            NormalizedName = "super admin"
+                        },
+                        new
+                        {
+                            Id = "12709433-eac7-4edf-a38e-a9820b5e5df1",
+                            ConcurrencyStamp = "0cc3766e-cfcc-4d52-ac2e-fbcfaa2527fd",
+                            Name = "Admin",
+                            NormalizedName = "admin"
+                        },
+                        new
+                        {
+                            Id = "d4ee2aed-a406-4da5-98b5-178979801563",
+                            ConcurrencyStamp = "11ca77e3-9f00-4555-96f6-a89e80123cc6",
+                            Name = "User",
+                            NormalizedName = "user"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -156,6 +254,11 @@ namespace Library_DEPI.Migrations
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(13)
+                        .HasColumnType("nvarchar(13)");
 
                     b.Property<string>("Email")
                         .HasMaxLength(256)
@@ -208,6 +311,10 @@ namespace Library_DEPI.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasDiscriminator().HasValue("IdentityUser");
+
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -295,6 +402,16 @@ namespace Library_DEPI.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Library_DEPI.Models.Member", b =>
+                {
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
+
+                    b.Property<DateTime?>("RegistrationDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasDiscriminator().HasValue("Member");
+                });
+
             modelBuilder.Entity("Library_DEPI.Models.Book", b =>
                 {
                     b.HasOne("Library_DEPI.Models.Author", "Author")
@@ -312,6 +429,47 @@ namespace Library_DEPI.Migrations
                     b.Navigation("Author");
 
                     b.Navigation("Genre");
+                });
+
+            modelBuilder.Entity("Library_DEPI.Models.Checkout", b =>
+                {
+                    b.HasOne("Library_DEPI.Models.Book", "Book")
+                        .WithMany()
+                        .HasForeignKey("BookID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Library_DEPI.Models.Member", "Member")
+                        .WithMany()
+                        .HasForeignKey("MemberID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Book");
+
+                    b.Navigation("Member");
+                });
+
+            modelBuilder.Entity("Library_DEPI.Models.Penalty", b =>
+                {
+                    b.HasOne("Library_DEPI.Models.Return", "Return")
+                        .WithMany()
+                        .HasForeignKey("ReturnID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Return");
+                });
+
+            modelBuilder.Entity("Library_DEPI.Models.Return", b =>
+                {
+                    b.HasOne("Library_DEPI.Models.Checkout", "Checkout")
+                        .WithMany()
+                        .HasForeignKey("CheckoutID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Checkout");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

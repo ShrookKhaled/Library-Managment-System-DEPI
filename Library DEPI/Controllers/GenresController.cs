@@ -1,4 +1,6 @@
-﻿namespace Library_DEPI.Controllers
+﻿using Microsoft.AspNetCore.Authorization;
+
+namespace Library_DEPI.Controllers
 {
     public class GenresController : Controller
     {
@@ -32,12 +34,14 @@
             return View(genre);
         }
 
+        [Authorize(Roles = $"{MyRoles.SuperAdminRole},{MyRoles.AdminRole}")]
         // GET: Genres/Create
         public IActionResult Create()
         {
             return View();
         }
 
+        [Authorize(Roles = $"{MyRoles.SuperAdminRole},{MyRoles.AdminRole}")]
         // POST: Genres/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -58,6 +62,7 @@
             return View(genre);
         }
 
+        [Authorize(Roles = $"{MyRoles.SuperAdminRole},{MyRoles.AdminRole}")]
         // GET: Genres/Edit/5
         public async Task<IActionResult> Edit(int id)
         {
@@ -74,6 +79,7 @@
             return View(genre);
         }
 
+        [Authorize(Roles = $"{MyRoles.SuperAdminRole},{MyRoles.AdminRole}")]
         // POST: Genres/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -114,6 +120,7 @@
             return View(genre);
         }
 
+        [Authorize(Roles = $"{MyRoles.SuperAdminRole},{MyRoles.AdminRole}")]
         // GET: Genres/Delete/5
         public async Task<IActionResult> Delete(int id)
         {
@@ -131,6 +138,7 @@
             return View(genre);
         }
 
+        [Authorize(Roles = $"{MyRoles.SuperAdminRole},{MyRoles.AdminRole}")]
         // POST: Genres/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]

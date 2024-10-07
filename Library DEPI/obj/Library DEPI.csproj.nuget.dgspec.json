@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Library DEPI\\Library DEPI\\Library DEPI.csproj": {}
+    "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Library DEPI.csproj": {}
   },
   "projects": {
-    "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Library DEPI\\Library DEPI\\Library DEPI.csproj": {
+    "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Library DEPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Library DEPI\\Library DEPI\\Library DEPI.csproj",
+        "projectUniqueName": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Library DEPI.csproj",
         "projectName": "Library DEPI",
-        "projectPath": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Library DEPI\\Library DEPI\\Library DEPI.csproj",
+        "projectPath": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Library DEPI.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Library DEPI\\Library DEPI\\obj\\",
+        "outputPath": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

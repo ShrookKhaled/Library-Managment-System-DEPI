@@ -2,22 +2,13 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
 using System.Text;
 using System.Text.Encodings.Web;
-using System.Threading;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI.Services;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
-using Microsoft.Extensions.Logging;
 
 namespace Library_DEPI.Areas.Identity.Pages.Account
 {
@@ -30,12 +21,14 @@ namespace Library_DEPI.Areas.Identity.Pages.Account
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
 
+        private readonly UserManager<Member> _member;
         public RegisterModel(
             UserManager<IdentityUser> userManager,
             IUserStore<IdentityUser> userStore,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender)
+            IEmailSender emailSender
+           )
         {
             _userManager = userManager;
             _userStore = userStore;
@@ -44,6 +37,10 @@ namespace Library_DEPI.Areas.Identity.Pages.Account
             _logger = logger;
             _emailSender = emailSender;
         }
+            
+
+
+
 
         /// <summary>
         ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -97,7 +94,12 @@ namespace Library_DEPI.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
-        }
+
+
+            public string PhoneNumber { get; set; }
+            public DateTime? RegistrationDate { get; set; } = DateTime.UtcNow;
+        
+    }
 
 
         public async Task OnGetAsync(string returnUrl = null)
@@ -113,9 +115,14 @@ namespace Library_DEPI.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
-
+                
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+                //test registeration date - phone number
+               
+                user.PhoneNumber = Input.PhoneNumber; // إضافة رقم الهاتف
+                //user.RegistrationDate = DateTime.UtcNow; // تعيين تاريخ التسجيل
+
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 
                 if (result.Succeeded)
@@ -168,6 +175,9 @@ namespace Library_DEPI.Areas.Identity.Pages.Account
                     $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
             }
         }
+
+
+
 
         private IUserEmailStore<IdentityUser> GetEmailStore()
         {

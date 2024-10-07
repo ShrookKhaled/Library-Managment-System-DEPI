@@ -1,5 +1,6 @@
 ﻿
 using Library_DEPI.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Library_DEPI.Controllers
 {
@@ -33,7 +34,7 @@ namespace Library_DEPI.Controllers
 
             return View(author);
         }
-
+        [Authorize(Roles =$"{MyRoles.SuperAdminRole},{MyRoles.AdminRole}")]
         // GET: Authors/Create
         public IActionResult Create()
         {
@@ -43,6 +44,7 @@ namespace Library_DEPI.Controllers
         // POST: Authors/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = $"{MyRoles.SuperAdminRole},{MyRoles.AdminRole}")]
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -61,6 +63,7 @@ namespace Library_DEPI.Controllers
             return View(author);
         }
 
+        [Authorize(Roles = $"{MyRoles.SuperAdminRole},{MyRoles.AdminRole}")]
 
         // GET: Authors/Edit/5
         public async Task<IActionResult> Edit(int id)
@@ -81,6 +84,7 @@ namespace Library_DEPI.Controllers
         // POST: Authors/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = $"{MyRoles.SuperAdminRole},{MyRoles.AdminRole}")]
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -118,6 +122,7 @@ namespace Library_DEPI.Controllers
             return View(author);
         }
 
+        [Authorize(Roles = $"{MyRoles.SuperAdminRole},{MyRoles.AdminRole}")]
 
         // GET: Authors/Delete/5
         public async Task<IActionResult> Delete(int id)
@@ -135,6 +140,7 @@ namespace Library_DEPI.Controllers
 
             return View(author);
         }
+        [Authorize(Roles = $"{MyRoles.SuperAdminRole},{MyRoles.AdminRole}")]
 
         //// POST: Authors/Delete/5
         [HttpPost, ActionName("Delete")]
