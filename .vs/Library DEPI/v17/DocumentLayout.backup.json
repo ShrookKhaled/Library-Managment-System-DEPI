@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\data\\myroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\data\\myroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\migrations\\20241006011949_roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\migrations\\20241006011949_roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\views\\genres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\views\\genres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -27,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -45,14 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\data\\myroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\data\\myroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241006011949_Roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library DEPI\\Migrations\\20241006011949_Roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -232,50 +232,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Penalty\\Index.cshtml",
-              "RelativeDocumentMoniker": "Library DEPI\\Views\\Penalty\\Index.cshtml",
-              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Penalty\\Index.cshtml",
-              "RelativeToolTip": "Library DEPI\\Views\\Penalty\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-06T03:20:31.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PenaltyController.cs",
-              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Controllers\\PenaltyController.cs",
-              "RelativeDocumentMoniker": "Library DEPI\\Controllers\\PenaltyController.cs",
-              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Controllers\\PenaltyController.cs",
-              "RelativeToolTip": "Library DEPI\\Controllers\\PenaltyController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDAAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T03:20:00.454Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "addRoles.cshtml",
-              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Roles\\addRoles.cshtml",
-              "RelativeDocumentMoniker": "Library DEPI\\Views\\Roles\\addRoles.cshtml",
-              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Roles\\addRoles.cshtml",
-              "RelativeToolTip": "Library DEPI\\Views\\Roles\\addRoles.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-06T01:15:02.742Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -287,25 +256,24 @@
               "RelativeToolTip": "Library DEPI\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA+wAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T22:31:20.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T22:31:20.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "AuthorsController.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Controllers\\AuthorsController.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Controllers\\AuthorsController.cs",
               "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Controllers\\AuthorsController.cs",
               "RelativeToolTip": "Library DEPI\\Controllers\\AuthorsController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T20:38:56.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "_Layout2.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Shared\\_Layout2.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\Shared\\_Layout2.cshtml",
@@ -313,12 +281,11 @@
               "RelativeToolTip": "Library DEPI\\Views\\Shared\\_Layout2.cshtml",
               "ViewState": "AgIAABEAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T22:59:17.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T22:59:17.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Authors\\Index.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\Authors\\Index.cshtml",
@@ -326,12 +293,11 @@
               "RelativeToolTip": "Library DEPI\\Views\\Authors\\Index.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T20:58:31.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T20:58:31.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Genres\\Index.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\Genres\\Index.cshtml",
@@ -339,12 +305,11 @@
               "RelativeToolTip": "Library DEPI\\Views\\Genres\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T22:58:41.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T22:58:41.274Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Penalty.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Models\\Penalty.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Models\\Penalty.cs",
@@ -352,8 +317,69 @@
               "RelativeToolTip": "Library DEPI\\Models\\Penalty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T23:50:17.556Z",
+              "WhenOpened": "2024-10-01T23:50:17.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241006011949_Roles.cs",
+              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241006011949_Roles.cs",
+              "RelativeDocumentMoniker": "Library DEPI\\Migrations\\20241006011949_Roles.cs",
+              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241006011949_Roles.cs",
+              "RelativeToolTip": "Library DEPI\\Migrations\\20241006011949_Roles.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T01:19:49.625Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyRoles.cs",
+              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Data\\MyRoles.cs",
+              "RelativeDocumentMoniker": "Library DEPI\\Data\\MyRoles.cs",
+              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Data\\MyRoles.cs",
+              "RelativeToolTip": "Library DEPI\\Data\\MyRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T01:14:32.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "addRoles.cshtml",
+              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Roles\\addRoles.cshtml",
+              "RelativeDocumentMoniker": "Library DEPI\\Views\\Roles\\addRoles.cshtml",
+              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Roles\\addRoles.cshtml",
+              "RelativeToolTip": "Library DEPI\\Views\\Roles\\addRoles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T01:15:02.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PenaltyController.cs",
+              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Controllers\\PenaltyController.cs",
+              "RelativeDocumentMoniker": "Library DEPI\\Controllers\\PenaltyController.cs",
+              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Controllers\\PenaltyController.cs",
+              "RelativeToolTip": "Library DEPI\\Controllers\\PenaltyController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T03:20:00.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Penalty\\Index.cshtml",
+              "RelativeDocumentMoniker": "Library DEPI\\Views\\Penalty\\Index.cshtml",
+              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Penalty\\Index.cshtml",
+              "RelativeToolTip": "Library DEPI\\Views\\Penalty\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T03:20:31.579Z"
             },
             {
               "$type": "Document",
@@ -365,12 +391,11 @@
               "RelativeToolTip": "Library DEPI\\Data\\AppDBContext.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAYwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T22:29:56.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T22:29:56.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "GenresController.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Controllers\\GenresController.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Controllers\\GenresController.cs",
@@ -378,8 +403,7 @@
               "RelativeToolTip": "Library DEPI\\Controllers\\GenresController.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAYwIwAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T22:48:58.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T22:48:58.903Z"
             },
             {
               "$type": "Document",
@@ -395,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RolesController.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Controllers\\RolesController.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Controllers\\RolesController.cs",
@@ -403,12 +427,11 @@
               "RelativeToolTip": "Library DEPI\\Controllers\\RolesController.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAAAC8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T01:12:55.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T01:12:55.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "roleViewModel.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Models\\roleViewModel.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Models\\roleViewModel.cs",
@@ -416,34 +439,7 @@
               "RelativeToolTip": "Library DEPI\\Models\\roleViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T01:13:45.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MyRoles.cs",
-              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Data\\MyRoles.cs",
-              "RelativeDocumentMoniker": "Library DEPI\\Data\\MyRoles.cs",
-              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Data\\MyRoles.cs",
-              "RelativeToolTip": "Library DEPI\\Data\\MyRoles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T01:14:32.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20241006011949_Roles.cs",
-              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241006011949_Roles.cs",
-              "RelativeDocumentMoniker": "Library DEPI\\Migrations\\20241006011949_Roles.cs",
-              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241006011949_Roles.cs",
-              "RelativeToolTip": "Library DEPI\\Migrations\\20241006011949_Roles.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T01:19:49.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T01:13:45.416Z"
             },
             {
               "$type": "Document",
@@ -479,8 +475,7 @@
               "RelativeToolTip": "Library DEPI\\Models\\Author.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T23:20:58.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T23:20:58.251Z"
             },
             {
               "$type": "Document",
@@ -576,8 +571,7 @@
               "RelativeToolTip": "Library DEPI\\Migrations\\AppDBContextModelSnapshot.cs",
               "ViewState": "AgIAAHIBAAAAAAAAAAAQwMMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T11:47:03.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T11:47:03.428Z"
             },
             {
               "$type": "Document",

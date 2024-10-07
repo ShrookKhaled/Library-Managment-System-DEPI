@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\data\\myroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\data\\myroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\migrations\\20241006011949_roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\migrations\\20241006011949_roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\data\\myroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\data\\myroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -219,10 +223,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\migrations\\20241005210214_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\migrations\\20241005210214_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|d:\\depi\\.net\\final project\\library\\code\\test identity\\library depi\\library depi\\migrations\\20241006011949_roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50245FC6-C0B3-456F-B3F1-B3F5106E3F62}|Library DEPI\\Library DEPI.csproj|solutionrelative:library depi\\migrations\\20241006011949_roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -232,7 +232,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -240,43 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Penalty\\Index.cshtml",
-              "RelativeDocumentMoniker": "Library DEPI\\Views\\Penalty\\Index.cshtml",
-              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Penalty\\Index.cshtml",
-              "RelativeToolTip": "Library DEPI\\Views\\Penalty\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-06T03:20:31.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PenaltyController.cs",
-              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Controllers\\PenaltyController.cs",
-              "RelativeDocumentMoniker": "Library DEPI\\Controllers\\PenaltyController.cs",
-              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Controllers\\PenaltyController.cs",
-              "RelativeToolTip": "Library DEPI\\Controllers\\PenaltyController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDAAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T03:20:00.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "addRoles.cshtml",
-              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Roles\\addRoles.cshtml",
-              "RelativeDocumentMoniker": "Library DEPI\\Views\\Roles\\addRoles.cshtml",
-              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Roles\\addRoles.cshtml",
-              "RelativeToolTip": "Library DEPI\\Views\\Roles\\addRoles.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-06T01:15:02.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Program.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Program.cs",
@@ -288,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AuthorsController.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Controllers\\AuthorsController.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Controllers\\AuthorsController.cs",
@@ -296,12 +260,11 @@
               "RelativeToolTip": "Library DEPI\\Controllers\\AuthorsController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T20:38:56.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T20:38:56.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "_Layout2.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Shared\\_Layout2.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\Shared\\_Layout2.cshtml",
@@ -313,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Authors\\Index.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\Authors\\Index.cshtml",
@@ -325,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Genres\\Index.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\Genres\\Index.cshtml",
@@ -333,12 +296,11 @@
               "RelativeToolTip": "Library DEPI\\Views\\Genres\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T22:58:41.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T22:58:41.274Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Penalty.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Models\\Penalty.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Models\\Penalty.cs",
@@ -350,7 +312,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 1,
+              "Title": "20241006011949_Roles.cs",
+              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241006011949_Roles.cs",
+              "RelativeDocumentMoniker": "Library DEPI\\Migrations\\20241006011949_Roles.cs",
+              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241006011949_Roles.cs",
+              "RelativeToolTip": "Library DEPI\\Migrations\\20241006011949_Roles.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T01:19:49.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyRoles.cs",
+              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Data\\MyRoles.cs",
+              "RelativeDocumentMoniker": "Library DEPI\\Data\\MyRoles.cs",
+              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Data\\MyRoles.cs",
+              "RelativeToolTip": "Library DEPI\\Data\\MyRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T01:14:32.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "addRoles.cshtml",
+              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Roles\\addRoles.cshtml",
+              "RelativeDocumentMoniker": "Library DEPI\\Views\\Roles\\addRoles.cshtml",
+              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Roles\\addRoles.cshtml",
+              "RelativeToolTip": "Library DEPI\\Views\\Roles\\addRoles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T01:15:02.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PenaltyController.cs",
+              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Controllers\\PenaltyController.cs",
+              "RelativeDocumentMoniker": "Library DEPI\\Controllers\\PenaltyController.cs",
+              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Controllers\\PenaltyController.cs",
+              "RelativeToolTip": "Library DEPI\\Controllers\\PenaltyController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T03:20:00.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Penalty\\Index.cshtml",
+              "RelativeDocumentMoniker": "Library DEPI\\Views\\Penalty\\Index.cshtml",
+              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Penalty\\Index.cshtml",
+              "RelativeToolTip": "Library DEPI\\Views\\Penalty\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T03:20:31.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "AppDBContext.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Data\\AppDBContext.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Data\\AppDBContext.cs",
@@ -362,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GenresController.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Controllers\\GenresController.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Controllers\\GenresController.cs",
@@ -374,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -386,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RolesController.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Controllers\\RolesController.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Controllers\\RolesController.cs",
@@ -398,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "roleViewModel.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Models\\roleViewModel.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Models\\roleViewModel.cs",
@@ -410,31 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MyRoles.cs",
-              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Data\\MyRoles.cs",
-              "RelativeDocumentMoniker": "Library DEPI\\Data\\MyRoles.cs",
-              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Data\\MyRoles.cs",
-              "RelativeToolTip": "Library DEPI\\Data\\MyRoles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T01:14:32.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "20241006011949_Roles.cs",
-              "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241006011949_Roles.cs",
-              "RelativeDocumentMoniker": "Library DEPI\\Migrations\\20241006011949_Roles.cs",
-              "ToolTip": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241006011949_Roles.cs",
-              "RelativeToolTip": "Library DEPI\\Migrations\\20241006011949_Roles.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T01:19:49.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "20241005211005_updates.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241005211005_updates.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Migrations\\20241005211005_updates.cs",
@@ -446,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -458,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Author.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Models\\Author.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Models\\Author.cs",
@@ -470,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "20241005211809_test-phone.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241005211809_test-phone.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Migrations\\20241005211809_test-phone.cs",
@@ -482,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Member.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Models\\Member.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Models\\Member.cs",
@@ -494,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "20241005210431_member.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241005210431_member.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Migrations\\20241005210431_member.cs",
@@ -506,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "20241005210214_test.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241005210214_test.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Migrations\\20241005210214_test.cs",
@@ -518,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\appsettings.json",
               "RelativeDocumentMoniker": "Library DEPI\\appsettings.json",
@@ -530,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "20241003020223_Book.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241003020223_Book.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Migrations\\20241003020223_Book.cs",
@@ -542,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "20241002034205_createDB.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241002034205_createDB.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Migrations\\20241002034205_createDB.cs",
@@ -554,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "AppDBContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\AppDBContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Migrations\\AppDBContextModelSnapshot.cs",
@@ -566,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "20241004121111_Penalty.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Library DEPI\\Library DEPI\\Migrations\\20241004121111_Penalty.cs",
               "RelativeDocumentMoniker": "..\\..\\Library DEPI\\Library DEPI\\Migrations\\20241004121111_Penalty.cs",
@@ -578,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "20241004121342_PartDB.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241004121342_PartDB.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Migrations\\20241004121342_PartDB.cs",
@@ -590,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "20241004115025_update.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Library DEPI\\Library DEPI\\Migrations\\20241004115025_update.cs",
               "RelativeDocumentMoniker": "..\\..\\Library DEPI\\Library DEPI\\Migrations\\20241004115025_update.cs",
@@ -602,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
@@ -614,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Return.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Models\\Return.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Models\\Return.cs",
@@ -626,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Checkout.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Models\\Checkout.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Models\\Checkout.cs",
@@ -638,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Models\\Book.cs",
@@ -650,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "RegisterConfirmation.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
@@ -662,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "EmailSender.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Services\\EmailSender.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Services\\EmailSender.cs",
@@ -674,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\Shared\\_LoginPartial.cshtml",
@@ -686,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -698,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "GlobalUsing.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\GlobalUsing.cs",
               "RelativeDocumentMoniker": "Library DEPI\\GlobalUsing.cs",
@@ -710,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Genres\\Create.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\Genres\\Create.cshtml",
@@ -722,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Genres\\Delete.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\Genres\\Delete.cshtml",
@@ -734,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Genres\\Details.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\Genres\\Details.cshtml",
@@ -746,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Genres\\Edit.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\Genres\\Edit.cshtml",
@@ -758,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "GenreServices.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Services\\Implementation\\GenreServices.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Services\\Implementation\\GenreServices.cs",
@@ -770,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Authors\\Details.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\Authors\\Details.cshtml",
@@ -782,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "IGenreServices.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Services\\Interfaces\\IGenreServices.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Services\\Interfaces\\IGenreServices.cs",
@@ -794,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Authors\\Edit.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\Authors\\Edit.cshtml",
@@ -806,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Authors\\Create.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\Authors\\Create.cshtml",
@@ -818,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\Authors\\Delete.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\Authors\\Delete.cshtml",
@@ -830,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "IAuthorServices.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Services\\Interfaces\\IAuthorServices.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Services\\Interfaces\\IAuthorServices.cs",
@@ -842,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "AuthorServices.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Services\\Implementation\\AuthorServices.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Services\\Implementation\\AuthorServices.cs",
@@ -854,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "Genre.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Models\\Genre.cs",
@@ -866,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "20241002154933_Author-Genre.cs",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Migrations\\20241002154933_Author-Genre.cs",
               "RelativeDocumentMoniker": "Library DEPI\\Migrations\\20241002154933_Author-Genre.cs",
@@ -878,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "styles.css",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\assets\\css\\styles.css",
               "RelativeDocumentMoniker": "Library DEPI\\wwwroot\\assets\\css\\styles.css",
@@ -890,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Library DEPI\\Views\\_ViewStart.cshtml",
@@ -902,7 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "Library DEPI\\ScaffoldingReadMe.txt",
