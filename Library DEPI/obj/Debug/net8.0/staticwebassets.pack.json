@@ -1,259 +1,407 @@
 {
   "Files": [
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Library DEPI.bundle.scp.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Library DEPI.bundle.scp.css",
       "PackagePath": "staticwebassets\\Library DEPI.bundle.scp.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\assets\\css\\styles.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\assets\\bookstack.ico",
+      "PackagePath": "staticwebassets\\assets\\bookstack.ico"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\assets\\css\\styles.css",
       "PackagePath": "staticwebassets\\assets\\css\\styles.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\assets\\favicon.ico",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\assets\\favicon.ico",
       "PackagePath": "staticwebassets\\assets\\favicon.ico"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\assets\\js\\scripts.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\assets\\images\\33e9ec681e5b54f46e484be1381624e1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\33e9ec681e5b54f46e484be1381624e1.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\assets\\images\\407eebf1b04c19afa57183696a13c8b8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\407eebf1b04c19afa57183696a13c8b8.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\assets\\images\\4e9817071e68fafddd7445517f4350c7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\4e9817071e68fafddd7445517f4350c7.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\assets\\images\\5edf85018c6081d61502759e9eb35e1e.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\5edf85018c6081d61502759e9eb35e1e.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\assets\\images\\6cbab17a044acb36b28429cfc13ac58c.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\6cbab17a044acb36b28429cfc13ac58c.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\assets\\images\\7887bc593d3fec593291306ea4a2135a.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\7887bc593d3fec593291306ea4a2135a.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\assets\\images\\a33f51def28ea1c997931e222d3fef19.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\a33f51def28ea1c997931e222d3fef19.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\assets\\images\\book.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\book.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\assets\\images\\books-re.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\books-re.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\assets\\js\\scripts.js",
       "PackagePath": "staticwebassets\\assets\\js\\scripts.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\css\\site.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\favicon.ico",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\js\\site.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\0464b9b0-e842-40cb-8a8a-ee112ef2722e.jpg",
+      "PackagePath": "staticwebassets\\images\\0464b9b0-e842-40cb-8a8a-ee112ef2722e.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\0852c16a-bc2c-4dca-8214-3c93ebb6f1e8.jpg",
+      "PackagePath": "staticwebassets\\images\\0852c16a-bc2c-4dca-8214-3c93ebb6f1e8.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\14f71228-8f36-418b-908b-3a2bea3938cd.jpg",
+      "PackagePath": "staticwebassets\\images\\14f71228-8f36-418b-908b-3a2bea3938cd.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\285e4666-f0b3-4c4e-83a0-26fac92f3aff.jpg",
+      "PackagePath": "staticwebassets\\images\\285e4666-f0b3-4c4e-83a0-26fac92f3aff.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\2cfe44f3-11cb-4307-b63a-dd56d71a425a.jpg",
+      "PackagePath": "staticwebassets\\images\\2cfe44f3-11cb-4307-b63a-dd56d71a425a.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\3c7d92be-a4b7-4fbf-a230-10e2bcdd1417.jpg",
+      "PackagePath": "staticwebassets\\images\\3c7d92be-a4b7-4fbf-a230-10e2bcdd1417.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\44f78b28-8045-4c27-91bb-733feb39333d.jpg",
+      "PackagePath": "staticwebassets\\images\\44f78b28-8045-4c27-91bb-733feb39333d.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\48ab8db7-f7fe-49c4-89d8-deea240858ad.jpg",
+      "PackagePath": "staticwebassets\\images\\48ab8db7-f7fe-49c4-89d8-deea240858ad.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\73a122b5-ca18-4c72-ae6a-7136ec6606f9.png",
+      "PackagePath": "staticwebassets\\images\\73a122b5-ca18-4c72-ae6a-7136ec6606f9.png"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\74f04cdf-edc3-4276-afde-960567374313.jpg",
+      "PackagePath": "staticwebassets\\images\\74f04cdf-edc3-4276-afde-960567374313.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\7c56543c-a244-4845-9af5-162271ffa8b2.jpg",
+      "PackagePath": "staticwebassets\\images\\7c56543c-a244-4845-9af5-162271ffa8b2.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\838d081f-944a-4093-bb35-47171a5209eb.jpg",
+      "PackagePath": "staticwebassets\\images\\838d081f-944a-4093-bb35-47171a5209eb.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\8ce59373-2200-4ef1-b739-06d912ff9c2d.jpg",
+      "PackagePath": "staticwebassets\\images\\8ce59373-2200-4ef1-b739-06d912ff9c2d.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\8fcbe0a2-da20-4ded-83b4-2878f2e834f0.jpg",
+      "PackagePath": "staticwebassets\\images\\8fcbe0a2-da20-4ded-83b4-2878f2e834f0.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\96abcb35-03a4-4c37-9ac0-9f4167c0011c.jpg",
+      "PackagePath": "staticwebassets\\images\\96abcb35-03a4-4c37-9ac0-9f4167c0011c.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\a462eb97-40e9-4f4a-a912-467fc5e22144.jpg",
+      "PackagePath": "staticwebassets\\images\\a462eb97-40e9-4f4a-a912-467fc5e22144.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\acbbbdf6-11a8-4cf8-9308-d17c1fbe088c.png",
+      "PackagePath": "staticwebassets\\images\\acbbbdf6-11a8-4cf8-9308-d17c1fbe088c.png"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\ad5b4e46-7fde-4a87-90fa-fe4fa7b6f4fa.jpg",
+      "PackagePath": "staticwebassets\\images\\ad5b4e46-7fde-4a87-90fa-fe4fa7b6f4fa.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\b5050b5a-1204-4ae5-944a-ecf2e9cbc371.jpg",
+      "PackagePath": "staticwebassets\\images\\b5050b5a-1204-4ae5-944a-ecf2e9cbc371.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\bf47dff7-0b45-496b-8a47-15fb79ca2c9d.jpg",
+      "PackagePath": "staticwebassets\\images\\bf47dff7-0b45-496b-8a47-15fb79ca2c9d.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\ca44cf3c-512c-44a2-acab-690d1637398d.jpg",
+      "PackagePath": "staticwebassets\\images\\ca44cf3c-512c-44a2-acab-690d1637398d.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\d5aff2e1-8c15-4576-87dc-6ac16330aba9.jpg",
+      "PackagePath": "staticwebassets\\images\\d5aff2e1-8c15-4576-87dc-6ac16330aba9.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\default.png",
+      "PackagePath": "staticwebassets\\images\\default.png"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\e001ee21-ccb5-4fbc-b6c1-db63808ced3c.jpg",
+      "PackagePath": "staticwebassets\\images\\e001ee21-ccb5-4fbc-b6c1-db63808ced3c.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\f637000f-f852-47ea-9ebe-ddcd7eb9acd3.jpg",
+      "PackagePath": "staticwebassets\\images\\f637000f-f852-47ea-9ebe-ddcd7eb9acd3.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\f64dadd1-a258-454c-9cce-3ff333095d14.jpg",
+      "PackagePath": "staticwebassets\\images\\f64dadd1-a258-454c-9cce-3ff333095d14.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\images\\f85c2979-e282-49ae-9e81-e7e989117c66.jpg",
+      "PackagePath": "staticwebassets\\images\\f85c2979-e282-49ae-9e81-e7e989117c66.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\DEPI\\.NET\\Final Project\\Library\\Code\\Test Identity\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\.NET\\Finall\\Library DEPI\\Library DEPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Library DEPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba6a251b4bc8da7c2f7477ca77eeab0241c778b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c07d1cdc51dbbc300ceee16e133768db140e940")]
 [assembly: System.Reflection.AssemblyProductAttribute("Library DEPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Library DEPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

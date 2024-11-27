@@ -49,7 +49,7 @@ namespace Library_DEPI.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name")] Genre genre)
         {
-            if (_genreServices.ExistsByName(genre.Name)) // تحقق إذا كان الاسم موجود
+            if (_genreServices.ExistsByName(genre.Name)) 
             {
                 ModelState.AddModelError("Name", "This genre name already exists. Please choose a different name.");
             }
@@ -93,7 +93,7 @@ namespace Library_DEPI.Controllers
                 return NotFound();
             }
 
-            if (_genreServices.ExistsByName(genre.Name, id)) // تحقق إذا كان الاسم موجود
+            if (_genreServices.ExistsByName(genre.Name, id)) 
             {
                 ModelState.AddModelError("Name", "This genre name already exists. Please choose a different name.");
             }

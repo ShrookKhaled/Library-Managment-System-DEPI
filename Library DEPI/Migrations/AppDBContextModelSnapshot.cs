@@ -17,7 +17,7 @@ namespace Library_DEPI.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.8")
+                .HasAnnotation("ProductVersion", "8.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -53,6 +53,10 @@ namespace Library_DEPI.Migrations
                     b.Property<bool>("AvailabilityStatus")
                         .HasColumnType("bit");
 
+                    b.Property<string>("BookImage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -87,10 +91,21 @@ namespace Library_DEPI.Migrations
                     b.Property<int>("BookID")
                         .HasColumnType("int");
 
+                    b.Property<string>("BookName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("CheckoutDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("MemberID")
+                    b.Property<DateTime>("DueDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
@@ -98,7 +113,7 @@ namespace Library_DEPI.Migrations
 
                     b.HasIndex("BookID");
 
-                    b.HasIndex("MemberID");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Checkouts");
                 });
@@ -197,22 +212,22 @@ namespace Library_DEPI.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "740ed103-0a17-4fa2-a2b7-fa341b66ee77",
-                            ConcurrencyStamp = "9dcc70ea-8c47-4051-a8db-4be3d6cf67cf",
+                            Id = "2916d611-a0ca-43bb-9827-383fcb09f7e2",
+                            ConcurrencyStamp = "7305bbfc-ae6b-4c07-b131-c51c91935b27",
                             Name = "Super Admin",
                             NormalizedName = "super admin"
                         },
                         new
                         {
-                            Id = "12709433-eac7-4edf-a38e-a9820b5e5df1",
-                            ConcurrencyStamp = "0cc3766e-cfcc-4d52-ac2e-fbcfaa2527fd",
+                            Id = "1a99c618-e0cf-452e-b147-0bf3e222dac0",
+                            ConcurrencyStamp = "1dc3fc47-c94b-40bd-be4a-d57c0cfd8e75",
                             Name = "Admin",
                             NormalizedName = "admin"
                         },
                         new
                         {
-                            Id = "d4ee2aed-a406-4da5-98b5-178979801563",
-                            ConcurrencyStamp = "11ca77e3-9f00-4555-96f6-a89e80123cc6",
+                            Id = "a04bcd47-5521-49ab-b278-e5ccc6c74c97",
+                            ConcurrencyStamp = "1fb58cad-60af-4ea3-b8dc-4bbfd2a05cad",
                             Name = "User",
                             NormalizedName = "user"
                         });
@@ -439,15 +454,15 @@ namespace Library_DEPI.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Library_DEPI.Models.Member", "Member")
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
                         .WithMany()
-                        .HasForeignKey("MemberID")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Book");
 
-                    b.Navigation("Member");
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Library_DEPI.Models.Penalty", b =>

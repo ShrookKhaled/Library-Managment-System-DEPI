@@ -27,6 +27,7 @@ namespace Library_DEPI.Services.Implementation
             return false;
         }
 
+        // for unique name genre
         public bool ExistsByName(string name, int? excludeId = null)
         {
             return _context.Genres.Any(a => a.Name == name && a.Id != excludeId);

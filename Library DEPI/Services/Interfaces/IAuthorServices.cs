@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using System.Net;
-
+﻿
 namespace Library_DEPI.Services.Interfaces
 {
     public interface IAuthorServices

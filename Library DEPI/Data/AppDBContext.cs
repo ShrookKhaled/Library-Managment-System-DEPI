@@ -1,6 +1,5 @@
 ﻿
 
-
 namespace Library_DEPI.Data
 {
     public class AppDBContext : IdentityDbContext
@@ -47,6 +46,7 @@ namespace Library_DEPI.Data
                 }
                 );
         }
+        //public DbSet<Library_DEPI.ViewModel.CheckoutViewModel> CheckoutViewModel { get; set; } = default!;
 
     }
 

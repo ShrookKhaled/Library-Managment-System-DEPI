@@ -5,12 +5,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<form method="post">
+                @* <h2 class="text-primary text-center">User Role</h2> *@
+
+@* <form method="post">
     <div class="container p-3">
         <div class="row pt-4">
             <div class="col-6">
-                <h2 class="text-primary">User Role</h2>
-                <h3>ViewBag.userName</h3>
+                
             </div>
         </div>
 
@@ -51,7 +52,51 @@
     </div>
 
     <button type="submit" onclick="updateJsonFile()" class="btn btn-primary" style="width:150px">Save</button>
+</form> *@
+
+
+
+
+
+<form method="post">
+    <div class="container p-4">
+        <h2 class="text-center mb-4 text-primary">Manage User Roles</h2>
+
+        <input type="hidden" id="userName" name="userName" value="@ViewBag.userName" />
+        <input type="hidden" id="userId" name="userId" value="@ViewBag.userId" />
+        <input type="hidden" id="jsonRoles" name="jsonRoles" />
+
+        <table id="roleTable" class="table table-hover table-bordered" style="text-align:center;">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col" style="width:40%;">Role Id</th>
+                    <th scope="col">Role Name</th>
+                    <th scope="col">Assign Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td scope="row" class="tId">@item.roleId</td>
+                        <td class="tName">@item.roleName</td>
+                        <td>
+                            <input type="checkbox" class="tCheck" @(item.useRole ? "checked" : "") />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="text-center">
+            <button type="submit" onclick="updateJsonFile()" class="btn btn-primary" style="width: 150px;">Save Changes</button>
+        </div>
+    </div>
 </form>
+
+
+
+
 
 
 

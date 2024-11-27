@@ -1,6 +1,4 @@
-﻿
-using Library_DEPI.Services.Interfaces;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 
 namespace Library_DEPI.Controllers
 {

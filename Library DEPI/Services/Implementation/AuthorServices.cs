@@ -1,8 +1,4 @@
-﻿using Library_DEPI.Services.Interfaces;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Mvc.Rendering;
-
-namespace Library_DEPI.Services.Implementation
+﻿namespace Library_DEPI.Services.Implementation
 {
     public class AuthorServices : IAuthorServices
     {

@@ -1,8 +1,3 @@
-
-
-using Library_DEPI.Services.Implementation;
-using Library_DEPI.Services.Interfaces;
-
 namespace Library_DEPI
 {
     public class Program
@@ -27,6 +22,8 @@ namespace Library_DEPI
             builder.Services.AddTransient<IAuthorServices, AuthorServices>();
             builder.Services.AddTransient<IGenreServices, GenreServices>();
             builder.Services.AddTransient<IPenaltyServices, PenaltyServices>();
+            builder.Services.AddTransient<IBookServices, BookServices>();
+            builder.Services.AddTransient<ICheckoutServices, CheckoutServices>();
 
             var app = builder.Build();
 
@@ -35,16 +32,23 @@ namespace Library_DEPI
             {
                 app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+
+                //HTTP Strict Transport Security (HSTS) , man in the middle 
                 app.UseHsts();
             }
 
+
+            // http -> https 
             app.UseHttpsRedirection();
+
+            // static files css, js, images
             app.UseStaticFiles();
 
             app.UseRouting();
 
             app.UseAuthorization();
 
+            // Routing Pattern
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
